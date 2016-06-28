@@ -1,0 +1,35 @@
+{
+  "name": "seq-id-generator-react-native",
+  "version": "1.0.0",
+  "description": "int sequence generator, based on async storage",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/standard/bin/cmd.js && ./node_modules/tape/bin/tape ./tests/**/*.js | ./node_modules/faucet/bin/cmd.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stockulus/seq-id-generator-react-native.git"
+  },
+  "keywords": [
+    "sequence",
+    "asyncstorage",
+    "int"
+  ],
+  "author": "stockulus",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stockulus/seq-id-generator-react-native/issues"
+  },
+  "homepage": "https://github.com/stockulus/seq-id-generator-react-native#readme",
+  "dependencies": {
+    "polygoat": "1.1.4"
+  },
+  "devDependencies": {
+    "faucet": "0.0.1",
+    "standard": "7.1.2",
+    "tape": "4.6.0"
+  },
+  "peerDependencies": {
+    "react-native": ">=0.25.0"
+  }
+}

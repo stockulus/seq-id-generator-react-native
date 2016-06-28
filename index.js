@@ -1,7 +1,7 @@
 'use strict'
 
-import { AsyncStorage } from 'react-native'
-import polygoat from 'polygoat'
+const AsyncStorage = require('react-native').AsyncStorage
+const polygoat = require('polygoat')
 
 /**
  * Factory function for the generator
@@ -10,7 +10,7 @@ import polygoat from 'polygoat'
  * @param {function} [callback]
  * @return {Promise} if uses without callback
  */
-export default (name, formatFunc, callback) => {
+module.exports = function seqIdGenerator (name, formatFunc, callback) {
   const generator = (id) => {
     return {
       /**

@@ -1,11 +1,11 @@
-seq-id-generator
+seq-id-generator-react-native
 ====
 generates an sequence id (1, 2, 3, 4...), based on asyncstorage
 
 ### Usage
 
 ```bash
-npm i seq-id-generator
+npm i seq-id-generator-react-native
 ```
 
 ```js
@@ -18,7 +18,7 @@ seqIdGenerator(name)
   .catch((error) => console.error(error))
 
 // with formating Function
-seqIdGenerator(name, (id) => `A-${id}`)
+seqIdGenerator(name, id => `A-${id}`)
   .then((generator) => generator.next())
   .then((id) => console.log(id))
   .catch((error) => console.error(error))

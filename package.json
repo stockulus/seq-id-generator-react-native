@@ -16,7 +16,7 @@
     "asyncstorage",
     "int"
   ],
-  "author": "stockulus",
+  "author": "Christoph Stock (@stockulus)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/stockulus/seq-id-generator-react-native/issues"

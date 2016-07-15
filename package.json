@@ -1,6 +1,6 @@
 {
   "name": "seq-id-generator-react-native",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "int sequence generator, based on async storage",
   "main": "index.js",
   "scripts": {

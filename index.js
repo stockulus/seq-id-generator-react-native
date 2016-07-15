@@ -47,7 +47,7 @@ const sequence = (func, callback) => {
 
     isRunning = true
     const task = queue.shift()
-    process.nextTick(() => {
+    global.setImmediate(() => {
       task.func((error, result) => {
         task.callback(error, result)
         isRunning = false

@@ -33,7 +33,7 @@ module.exports = function seqIdGenerator (name, formatFunc, callback) {
 
   return polygoat(done => {
     AsyncStorage.getItem(`__${name}`, (error, data) => {
-      const lastId = error ? 0 : parseInt(data) || 0
+      const lastId = error ? 0 : parseInt(data, 10) || 0
       done(null, generator(lastId))
     })
   }, callback)

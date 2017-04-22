@@ -3,6 +3,7 @@ seq-id-generator-react-native
 generates an sequence id (1, 2, 3, 4...), based on asyncstorage
 
 [![bitHound Overall Score](https://www.bithound.io/github/stockulus/seq-id-generator-react-native/badges/score.svg)](https://www.bithound.io/github/stockulus/seq-id-generator-react-native) [![npm Package](https://img.shields.io/npm/dm/seq-id-generator-react-native.svg)](https://www.npmjs.com/package/seq-id-generator-react-native) [![npm Package](https://img.shields.io/npm/v/seq-id-generator-react-native.svg)](https://www.npmjs.com/package/seq-id-generator-react-native) [![travis-ci.org](https://travis-ci.org/stockulus/seq-id-generator-react-native.svg)](https://travis-ci.org/stockulus/seq-id-generator-react-native) [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](http://standardjs.com/) [![license](https://img.shields.io/npm/l/seq-id-generator-react-native.svg?maxAge=2592000)](https://opensource.org/licenses/MIT)
+
 ### Usage
 
 ```bash
